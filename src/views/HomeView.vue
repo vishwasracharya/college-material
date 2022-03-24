@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="my-5">
+    <div class="my-5 py-5 mx-1 mx-md-0">
       <h1>Vishwas BE IT</h1>
       <p>
         I made this website, just so that i can have a backup of all the
