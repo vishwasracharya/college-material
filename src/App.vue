@@ -1,13 +1,24 @@
 <template>
+<div>
   <NavbarTop />
-  <router-view />
+    <div class="row">
+      <div class="col-md-2">
+        <SideBar />
+      </div>
+      <div class="col-md-10 ps-md-4">
+        <router-view />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 import NavbarTop from "./components/Navbar-Top.vue";
+import SideBar from "./components/SideBar.vue";
 export default {
   components: {
     NavbarTop,
+    SideBar,
   },
 };
 </script>
