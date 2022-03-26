@@ -2,10 +2,10 @@
 <div>
   <NavbarTop />
     <div class="row m-0 p-0">
-      <div class="col-md-2 m-0 p-0">
+      <div class="col-sm-2 m-0 p-0">
         <SideBar />
       </div>
-      <div class="col-md-10 m-0 p-0 ps-md-1">
+      <div class="col-sm-10 m-0 p-0 ps-md-1">
         <router-view />
       </div>
     </div>

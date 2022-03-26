@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="vertical-center container">
     <div class="my-5 py-5 mx-1 mx-md-0">
       <h1 class="mb-3">Who Am I?</h1>
       <p>My name is 
